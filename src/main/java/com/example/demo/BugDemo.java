@@ -37,10 +37,6 @@ public class BugDemo
     private IntWriter intWriter ;
     private VarCharWriter varCharWriter ;
 
-    /* For Exporting vectors */
-
-
-
 
     public void run() {
         /* Initialize */
@@ -50,7 +46,7 @@ public class BugDemo
         /* Write some data and export */
         writeData() ;
         System.out.println(vectorSchemaRoot.contentToTSVString());
-        export();
+        export(); // Error thrown in this function
         
         /* Close all */
         closeAll();
