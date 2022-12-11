@@ -87,8 +87,8 @@ public class BugDemo
 
         Object[][] rows = new Object[][] {
             {0, "value_0"}, 
-            {1, "value_2"},
-            {2, "value_3"}
+            {1, "value_1"},
+            {2, "value_2"}
         };
 
         for (int i = 0 ; i < rows.length; i++) {
